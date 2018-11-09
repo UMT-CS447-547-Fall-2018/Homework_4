@@ -2,7 +2,9 @@ from imageio import imread
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+# I crashed this afternoon and didn't have any time to 
+# implement a sampling version, this uses the potentially
+# degenerate [0,0,0], [0,0,255], ... base means
 
 def distance(x,y):
     dist = 0
